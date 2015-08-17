@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="ktuBagilNot.hakkinda"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ktuBagilNot"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/HubBackground.theme-dark.png" Stretch="UniformToFill"></ImageBrush>
+        </Grid.Background>
+        <StackPanel>
+            <TextBlock Text="KTÜ Not Hesaplayıcı" FontSize="24" Margin="10,30,0,0"/>
+            <TextBlock Text="Uygulama Sahibi : Furkan Kaplan" FontSize="20" Margin="10,50,0,0" />
+            <TextBlock Text="Mail Adresi : furkan.kaplan@gmail.com" FontSize="20" Margin="10,0,0,0" />
+            <TextBlock Text="Version : 1.1.0.1" FontSize="20" Margin="10,0,0,0"/>
+            <TextBlock Text="-Uygulamanın Kullanımı-" TextAlignment="Left" FontSize="18" 
+                       Foreground="DarkRed"  Margin="10,30,0,0" FontWeight="Bold"/>
+            <TextBlock TextWrapping="Wrap" FontSize="18" Margin="0,10,0,0" 
+                       Text="-Hesaplamalar yalnız vize notu ile yapılabilir. Final notu girilmek zorunda değildir."/>
+            <TextBlock TextWrapping="Wrap" FontSize="18" Margin="0,5,0,0"
+                       Text="-Sınıf ortalamasının 80 ve üzeri olduğu durumlarda ya da öğrenci sayısının 10 kişiden az olduğu durumlarda 'Mutlak değerlendirme sistemi not aralığı' kullanıldığından standart sapma değeri girilmesi gerekli değildir."/>
+            <TextBlock TextWrapping="Wrap" FontSize="18" Margin="0,5,0,0"
+                       Text="-Dersi alan öğrenci sayısı 11 ile 29 kişi arasında olduğunda yüzdelik dilim hesabı yapıldığından ders notu 'hesaplanamamaktadır'."/>
+            <TextBlock TextWrapping="Wrap" TextAlignment="Justify" FontSize="18" Margin="0,15,10,0"
+            	Text="     Uygulama ile ilgili tüm eleştiri ve isteklerinizi markete yazacağınız yorumlarda ya da mail yoluyla bana iletebilirsiniz."  />
+            <TextBlock FontSize="16" Margin="0,10,0,0" Foreground="Black"
+                Text="Tüm öğrencilere sınav döneminde başarılar dilerim :)" Height="55"/>
+        </StackPanel>
+    </Grid>
+</Page>

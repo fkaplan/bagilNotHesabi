@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  <Identity Name="680fkaplan.KTNotHesaplayc" Publisher="CN=5FB0045C-717E-4473-A765-1F8C74D1768C" Version="1.1.0.1" />
+  <mp:PhoneIdentity PhoneProductId="dca74b59-0b73-4eb8-9f96-eb1229e4e5ca" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>KTÜ Not Hesaplayıcı</DisplayName>
+    <PublisherDisplayName>furkan kaplan</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="ktuBagilNot.App">
+      <m3:VisualElements DisplayName="KTÜ Not Hesaplayıcı" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\Icon\44x44.png" Description="ktuBagilNot" ForegroundText="light" BackgroundColor="transparent">
+        <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Icon\71x71.png">
+        </m3:DefaultTile>
+        <m3:SplashScreen Image="Assets\notHesaplayici.png" />
+      </m3:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClientServer" />
+  </Capabilities>
+</Package>
